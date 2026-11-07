@@ -1,0 +1,58 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# AutoVideo Local runtime data
+cache/*
+!cache/.gitkeep
+logs/*
+!logs/.gitkeep
+projects/*
+!projects/.gitkeep
+exports/*
+!exports/.gitkeep
+
+# Temporary render workspaces and generated media
+*_work/
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.tmp
+*.part
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
