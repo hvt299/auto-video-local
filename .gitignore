@@ -22,7 +22,7 @@ build/
 dist/
 *.egg-info/
 
-# AutoVideo Local runtime data
+# AutoVideoLocal runtime data
 cache/*
 !cache/.gitkeep
 logs/*
